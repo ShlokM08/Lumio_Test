@@ -59,7 +59,7 @@ def log_email(recipient, subject, body, status):
 # PARSING AI OUTPUT
 ###############################################################################
 def parse_email_output(raw_text):
-    cleaned = re.sub(r"\\boxed\{|\{|\}|python|", "", raw_text)
+    cleaned = re.sub(r"\\boxed\{|\{|\}|```python|```", "", raw_text)
     subj_match = re.search(r'subject\s*=\s*"([^"]+)"', cleaned, re.IGNORECASE)
     subject = subj_match.group(1).strip() if subj_match else "Generated Email"
     body_match = re.search(r'body\s*=\s*"""([\s\S]+?)"""', cleaned, re.IGNORECASE)
@@ -265,5 +265,5 @@ def send():
 ###############################################################################
 # MAIN
 ###############################################################################
-if __name__ == "_main_":
+if __name__ == "__main__":
     app.run(debug=True, port=5000)
