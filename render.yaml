@@ -10,4 +10,5 @@ services:
       - key: SENDER_EMAIL
         value: aajay21001@iiitd.ac.in
       - key: SENDER_PASSWORD
-        value: ymzq eqmi bxfv qycu
+        value: ymzq eqmi bxfv qycu
+#vmessage
