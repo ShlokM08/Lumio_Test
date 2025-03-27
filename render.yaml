@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: email-generator
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: OPENROUTER_API_KEY
+        value: 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  
+      - key: SENDER_EMAIL
+        value: shlokvm@gmail.com
+      - key: SENDER_PASSWORD
+        value: vnck bguo tobt vwnv
