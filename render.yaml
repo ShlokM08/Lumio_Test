@@ -8,7 +8,7 @@ services:
       - key: OPENROUTER_API_KEY
         value: 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 # use real key or leave blank if using dashboard
       - key: SENDER_EMAIL
-        value: aajay21001@iiitd.ac.in
+        value: shlok21421@iiitd.ac.in
       - key: SENDER_PASSWORD
-        value: ymzq eqmi bxfv qycu
+        value: vnck bguo tobt vwnv
 #vmessage
