@@ -17,7 +17,7 @@ SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-DEEPSEEK_MODEL = "deepseek/deepseek-r1-zero:free"
+DEEPSEEK_MODEL = "google/gemini-2.5-pro-exp-03-25:free"
 
 ###############################################################################
 # FLASK SETUP
