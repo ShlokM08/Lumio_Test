@@ -6,7 +6,7 @@ services:
     startCommand: "gunicorn app:app"
     envVars:
       - key: OPENROUTER_API_KEY
-        value: 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  # use real key or leave blank if using dashboard
+        value: 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 # use real key or leave blank if using dashboard
       - key: SENDER_EMAIL
         value: aajay21001@iiitd.ac.in
       - key: SENDER_PASSWORD
